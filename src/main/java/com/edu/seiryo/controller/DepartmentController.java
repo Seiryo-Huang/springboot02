@@ -46,7 +46,6 @@ import java.util.List;
 public class DepartmentController {
     @Autowired
     DepartmentMapper departmentMapper;
-
     // 查询全部部门
     @GetMapping("/getDepartments")
     public List<Department> getDepartments(){
